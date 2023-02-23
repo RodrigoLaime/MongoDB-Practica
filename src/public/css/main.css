@@ -1,0 +1,63 @@
+.active{
+  display: none;
+}
+.body{
+  position: relative;
+  width: 100%;
+}
+
+#navbar {
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card-header{
+    background: #000046; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #1cb5e0,
+      #000046
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #1cb5e0,
+      #000046
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+.alert{
+  width: 70%;
+}
+.btn{
+  width: 100px;
+}
+
+/* modal */
+.hiden{
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  background:  #dc3545;
+  color: white;
+}
+.modals{
+  background-color: white;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  margin: 10% 25%;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+}
+hr{
+  background-color: lightgray;
+
+}
